@@ -35,7 +35,8 @@ class data_converter:
             doc = Document(page_content = entry['product_review'],metadata = metadata)
             docs.append(doc)
         print(docs[0])
-        #return docs    
+        #return docs  
+        
 
 if __name__ == '__main__':
     data_con = data_converter()

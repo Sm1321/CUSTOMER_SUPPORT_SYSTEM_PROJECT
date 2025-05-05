@@ -4,6 +4,7 @@ import os
 import pandas as pd
 from data_ingestion.data_transform import data_converter
 
+
 load_dotenv() 
 
 
@@ -31,8 +32,31 @@ class ingest_data:
             self.db_api_endpoint = os.getenv("ASTRA_DB_API_ENDPOINT")
             self.db_application_token = os.getenv("ASTRA_DB_APPLICATION_TOKEN")
             self.db_keyspace = os.getenv("ASTRA_DB_KEYSPACE")
+
+
+    def data_ingestion(self,status):
+            vstore = AstraDBVectorStore(
+                embedding = self.embedding,
+                collection = "chatbotecom",
+                api_endpoint = ASTRA_DB_API_ENDPOINT,
+                token = ASTRA_AB_APPLICATION_TOKEN,
+                namespace = ASTRA_DB_KEYSPACE,
+
+            ) 
+            storage = status
+
+            if storage == None:
+                 docs = self.data_convertor.data_transformation()
+                 inserted_ids = vstore.add_documnets(docs)
+                 print(inserted_ids)
+            else:
+                 return vstore 
+            
+            return vstore,inserted_ids              
+
     
 
+### this is the main function
 
 if __name__ == '__main()__':
     data_ingestion = ingest_data()
