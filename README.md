@@ -1,13 +1,15 @@
 ## CUSTOMER_SUPPORT_SYSTEM
 - This project is based on the RAG and LLM
 
-
+- To create the Conda Environment
 ```
  conda create -p env python=3.10 -y
 ```
+
 ```
 conda activate env
 ```
+
 ```
 uvicorn main:app --reload --port 8001
 ```
