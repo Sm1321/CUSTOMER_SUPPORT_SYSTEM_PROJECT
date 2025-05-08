@@ -15,7 +15,7 @@ uvicorn main:app --reload --port 8001
 
 
 
-- Steps:-
+### Steps:-
 - Run the ingestion_pipeline.py -> This code all intilization Vector DB  and will push the data into the vectior DB.
 - Run the retriveal.py file -> intliaze the API and also from the Vextor Db do the retiver .
 - 
