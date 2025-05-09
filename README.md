@@ -16,8 +16,9 @@ conda activate env
 uvicorn main:app --reload --port 8001
 ```
 
-```
+
 ### Tools used
+```
 - AstraDB
 - Google Gemini LLM 
 - FAST API
