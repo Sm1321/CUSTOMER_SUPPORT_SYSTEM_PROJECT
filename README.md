@@ -1,10 +1,12 @@
 ### CUSTOMER SUPPORT SYSTEM PROJECT
 
 
-#### To create a Enironment
+##### To create a Enironment
 ```
  conda create -p env python=3.10 -y
 ```
+
+#####
 ```
 conda activate env
 ```
