@@ -18,7 +18,7 @@ uvicorn main:app --reload --port 8001
 
 ### Tools used
 - AstraDB
-- Google Gemini LLM and google embeddings
+- Google Gemini LLM 
 - FAST API
 - HTML,CSS
   
