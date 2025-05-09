@@ -16,7 +16,12 @@ conda activate env
 uvicorn main:app --reload --port 8001
 ```
 
-
+### Tools used
+- AstraDB
+- Google Gemini LLM and google embeddings
+- FAST API
+- HTML,CSS
+  
 
 ### Steps:-
 - Run the ingestion_pipeline.py -> This code all intilization Vector DB  and will push the data into the vectior DB.
