@@ -6,7 +6,7 @@
  conda create -p env python=3.10 -y
 ```
 
-#####
+##### To activate the environment
 ```
 conda activate env
 ```
