@@ -1,5 +1,7 @@
 Metadata-Version: 2.1
 Name: e-commerce-bot
 Version: 0.0.1
-Author: Mohan
-Author-email: siddulamohan1321@gmai.com
+Author: sunny
+Author-email: snshrivas3365@gmail.com
+Requires-Dist: langchain-astradb
+Requires-Dist: langchain
