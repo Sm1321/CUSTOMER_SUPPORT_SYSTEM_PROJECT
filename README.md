@@ -7,6 +7,7 @@
 conda activate env
 ```
 
+
 - execute this command on main.py file 
 ```
 uvicorn main:app --reload --port 8001
