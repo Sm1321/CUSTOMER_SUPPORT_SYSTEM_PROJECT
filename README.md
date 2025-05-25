@@ -1,4 +1,4 @@
-
+##### These Projects i have learned form the Krish naik Academy
 #### To create a Enironment
 ```
  conda create -p env python=3.10 -y
