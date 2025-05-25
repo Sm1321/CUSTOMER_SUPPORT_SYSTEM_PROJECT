@@ -1,5 +1,5 @@
 ### These Projects i have learned form the Krish naik Academy
-- Under the Guidance of Sunny Savita Sir,
+- Under the Guidance of Sunny Savita Sir.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 #### To create a Enironment
 ```
