@@ -1,5 +1,6 @@
 ### These Projects i have learned form the Krish naik Academy
 - Under the Guidance of Sunny Savita Sir,
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 #### To create a Enironment
 ```
  conda create -p env python=3.10 -y
